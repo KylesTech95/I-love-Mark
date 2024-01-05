@@ -1,1 +1,11 @@
 *{margin:0;padding:0;box-sizing:border-box} body{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;}
+
+
+.mark-container{
+    background:red;
+    border: 4px solid #333;
+    border-radius: 50%;;
+}
+.mark{
+    padding:4rem;
+}
