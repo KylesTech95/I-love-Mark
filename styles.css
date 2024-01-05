@@ -4,7 +4,32 @@
 .mark-container{
     background:red;
     border: 4px solid #333;
-    border-radius: 50%;;
+    border-radius: 50%;
+    animation: colorChange 5s ease forwards infinite alternate;
+    transition:.3s;
+}
+@keyframes colorChange {
+    0%{
+        background:red;
+
+    }
+    25%{
+        background:blue;
+
+    }
+    50%{
+        background:green;
+
+    }
+    75%{
+        background:pink;
+
+    }
+    100%{
+        background:orange;
+
+    }
+    
 }
 .mark{
     padding:4rem;
